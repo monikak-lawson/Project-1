@@ -1,2 +1,2 @@
 # Project-1
-Using SQL to create data sets for answering 5 research questions. 
+Joining tables and using SQL to create data sets to answer 5 research questions.
