@@ -1,5 +1,5 @@
 # Project-1
-The task involved creating two SQL tables: one with data on wages and food prices for the Czech Republic over a defined period, and the other with supplementary data such as GDP and population for other European countries. The main objective was to collect and prepare datasets on food prices, income, and GDP for the Czech Republic to answer five research questions related to the food prices and salaries. Answers to the following questions can be found in file 'Visuals'. 
+The task involved creating two SQL tables: one with data on wages and food prices for the Czech Republic over a defined period, and the other with supplementary data such as GDP and population for other European countries. The main objective was to collect and prepare datasets on food prices, income, and GDP for the Czech Republic to answer five research questions related to the food prices and salaries. Answers to the following questions can be found in the file named 'Visuals'. 
 
 ## The research questions included:
 
