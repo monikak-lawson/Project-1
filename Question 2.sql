@@ -19,7 +19,7 @@ SELECT	payroll_year,
 	product_name,
 	average_salary,
 	average_price,
-	ROUND(average_salary/average_price,2) AS how_much_can_buy
+	ROUND(average_salary/average_price, 2) AS how_much_can_buy
 FROM t_Monika_Lawson_project_SQL_primary_final
 WHERE category_code IN (114201, 111301)
 	AND payroll_year IN (2006, 2018) -- -- first year 2006 and last year 2018
