@@ -16,7 +16,7 @@ FROM czechia_payroll_calculation cpc;
 -- 200	přepočtený
 
 --  Then I added a calculated column 'average salary', removed null values and filtered values.
-SELECT ROUND(AVG(cp.value),2) AS average_salary,
+SELECT ROUND(AVG(cp.value), 2) AS average_salary,
 	cp.industry_branch_code,
 	cp.payroll_year,
 	cp.calculation_code,
@@ -39,7 +39,7 @@ SELECT *
 FROM czechia_price_category cpc;
 
 SELECT cp2.region_code,
-	ROUND(AVG(cp2.value),2) AS average_price,
+	ROUND(AVG(cp2.value), 2) AS average_price,
 	cp2.category_code,
 	YEAR(cp2.date_from) AS year_from,
 	cpc.name AS product_name,
@@ -57,13 +57,13 @@ CREATE OR REPLACE TABLE t_Monika_Lawson_project_SQL_primary_final
 SELECT 
 	cp.payroll_year,
 	cp.industry_branch_code,
-	ROUND(AVG(cp.value),2) AS average_salary,
+	ROUND(AVG(cp.value), 2) AS average_salary,
 	cp.calculation_code,
 	cp.value_type_code,
 	cp.unit_code,
 	YEAR(cp2.date_from) AS year_from,
 	cpc.name AS product_name,
-	ROUND(AVG(cp2.value),2) AS average_price,
+	ROUND(AVG(cp2.value), 2) AS average_price,
 	cp2.category_code,
 	cp2.region_code,
 	cpc.code,
